@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/getjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul : "
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/getpenulis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penulis : "
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/getpenerbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penerbit : "
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/getharga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga : "
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+
+
+</LinearLayout>
